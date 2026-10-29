@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g fill="#bebebe">
+    <circle cx="4.6" cy="5.4" r="3.1"/>
+    <rect x="5.9" y="5" width="1.7" height="9.2" rx="0.85"/>
+    <circle cx="11.4" cy="5.4" r="3.1"/>
+    <rect x="8.4" y="5" width="1.7" height="9.2" rx="0.85"/>
+  </g>
+</svg>

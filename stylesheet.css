@@ -1,0 +1,191 @@
+.sound-tiles-item {
+  padding: 10px 12px 14px;
+}
+
+.sound-tiles {
+  spacing: 4px;
+}
+
+.sound-tile {
+  width: 96px;
+  padding: 4px 2px;
+  border-radius: 14px;
+  background-color: transparent;
+}
+
+.sound-tile-box {
+  spacing: 7px;
+}
+
+.sound-tile-circle {
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.12);
+  transition-duration: 150ms;
+}
+
+.sound-tile:hover .sound-tile-circle {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sound-tile:active .sound-tile-circle {
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
+.sound-tile:focus .sound-tile-circle {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.sound-tile-circle.active,
+.sound-tile:hover .sound-tile-circle.active,
+.sound-tile:active .sound-tile-circle.active {
+  color: -st-accent-fg-color;
+  background-color: -st-accent-color;
+}
+
+.sound-tile-label {
+  font-size: 0.82em;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.sound-tile-label.active {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+.sound-tile-text {
+  spacing: 1px;
+}
+
+.sound-modes {
+  margin-top: 12px;
+  padding: 3px;
+  spacing: 2px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.sound-mode {
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: transparent;
+  transition-duration: 150ms;
+}
+
+.sound-mode:hover,
+.sound-mode:focus {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.sound-mode.active,
+.sound-mode.active:hover,
+.sound-mode.active:focus {
+  color: #ffffff;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.sound-mode-title {
+  font-size: 0.82em;
+}
+
+.sound-mode-sub {
+  font-size: 0.68em;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sound-mode.active .sound-mode-sub {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.sound-buds {
+  padding: 14px 0 2px;
+  spacing: 28px;
+}
+
+.sound-bud {
+  width: 84px;
+  spacing: 8px;
+}
+
+.sound-bud-figure {
+  spacing: 4px;
+}
+
+.sound-bud-icon {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.sound-bud-badge {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.22);
+}
+
+.sound-bud-badge-text {
+  font-size: 0.62em;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.sound-bud-gauge {
+  spacing: 0;
+}
+
+.sound-bud-gauge-spacer {
+  width: 18px;
+}
+
+.sound-bud-bar {
+  width: 24px;
+  height: 10px;
+  padding: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 3px;
+}
+
+.sound-bud-nub {
+  width: 2px;
+  height: 5px;
+  margin-left: 1px;
+  border-radius: 0 1px 1px 0;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.sound-bud-bolt {
+  margin-left: 3px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.sound-bud-fill {
+  height: 10px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.sound-bud-fill.charging {
+  background-color: #30d158;
+}
+
+.sound-bud-fill.low {
+  background-color: #ff453a;
+}
+
+.sound-bud-level {
+  font-size: 1.15em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+}

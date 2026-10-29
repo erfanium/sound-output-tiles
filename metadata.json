@@ -1,0 +1,7 @@
+{
+  "uuid": "sound-output-tiles@erfanium.local",
+  "name": "Sound Output Tiles",
+  "description": "Shows one tile per physical sound output device (big icon, small label) instead of one row per port.",
+  "shell-version": ["50", "51"],
+  "url": "https://github.com/erfanium/sound-output-tiles"
+}
